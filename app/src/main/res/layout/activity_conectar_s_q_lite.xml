@@ -8,24 +8,24 @@
     android:orientation="vertical">
 
     <EditText
-        android:id="@+id/nombreUsuario"
+        android:id="@+id/id_usuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="Nombre" />
+        android:inputType="number"
+        android:hint="Id" />
 
     <EditText
-        android:id="@+id/PasswordUsuario"
+        android:id="@+id/nombre_usuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:hint="Contraseña" />
+        android:inputType="text"
+        android:hint="Nombre" />
     <EditText
-        android:id="@+id/TelefonoUsuario"
+        android:id="@+id/telefono_usuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
+        android:inputType="number"
         android:hint="Telefono" />
 
     <Button
