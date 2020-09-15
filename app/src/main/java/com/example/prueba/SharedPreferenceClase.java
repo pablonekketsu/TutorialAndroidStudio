@@ -20,6 +20,7 @@ public class SharedPreferenceClase extends AppCompatActivity {
         contraseña= (EditText)findViewById(R.id.PasswordPersona);
         campo1=findViewById(R.id.impresion1);
         campo2=findViewById(R.id.impresion2);
+        cargarPreferencias();
     }
 
     public void GuardarDatos(View view) {

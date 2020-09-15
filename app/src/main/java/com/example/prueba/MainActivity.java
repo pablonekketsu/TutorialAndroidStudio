@@ -39,4 +39,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent= new Intent(this,ConectarSQLite.class);
         startActivity(intent);
     }
+
+    public void consultarUsuarios(View view) {
+        Intent intent= new Intent(this,consultarUsuarios.class);
+        startActivity(intent);
+    }
 }

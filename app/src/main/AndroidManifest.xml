@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ConectarSQLite"></activity>
+        <activity android:name=".consultarUsuarios"></activity>
+        <activity
+            android:name=".ConectarSQLite"
+            android:label="Registro Usuarios" />
         <activity android:name=".SharedPreferenceClase" />
         <activity android:name=".PruebaScollView" />
         <activity android:name=".MainActivity2" />

@@ -4,36 +4,55 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
     tools:context=".ConectarSQLite"
-    android:orientation="vertical">
+    android:background="@android:color/holo_red_light">
 
-    <EditText
-        android:id="@+id/id_usuario"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="number"
-        android:hint="Id" />
 
-    <EditText
-        android:id="@+id/nombre_usuario"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="text"
-        android:hint="Nombre" />
-    <EditText
-        android:id="@+id/telefono_usuario"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="number"
-        android:hint="Telefono" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/buttonGuardar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        android:onClick="GuardarDatos"
-        />
+        <EditText
+            android:id="@+id/id_usuario"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:autofillHints=""
+            android:hint="Id"
+            android:inputType="number" />
 
+        <EditText
+            android:id="@+id/nombre_usuario"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:autofillHints=""
+            android:hint="Nombre"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/telefono_usuario"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:autofillHints=""
+            android:hint="Telefono"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/buttonGuardar"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:onClick="GuardarDatos"
+            android:text="Guardar"
+            />
+    </LinearLayout>
 </LinearLayout>

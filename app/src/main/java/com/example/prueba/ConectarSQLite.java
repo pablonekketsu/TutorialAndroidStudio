@@ -25,12 +25,12 @@ public class ConectarSQLite extends AppCompatActivity {
         nombre=findViewById(R.id.nombre_usuario);
         telefono=findViewById(R.id.telefono_usuario);
        // btn_guardar=findViewById(R.id.buttonGuardar);
-//        ConexionSQLiteHelper conector= new ConexionSQLiteHelper(getApplicationContext(),"db_usuario",null,1);
+//        ConexionSQLiteHelper conector= new ConexionSQLiteHelper(getApplicationContext(),"bd_usuario",null,1);
     }
 
     public void GuardarDatos(View view) {
-       // registrarUsuarios();
-        registrarUsuariosSQL();
+       registrarUsuarios();
+        //registrarUsuariosSQL();
 
     }
 
