@@ -44,4 +44,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent= new Intent(this,consultarUsuarios.class);
         startActivity(intent);
     }
+
+    public void pruebaFragments(View view) {
+        Intent intent= new Intent(this,pruebaFragments.class);
+        startActivity(intent);
+    }
 }

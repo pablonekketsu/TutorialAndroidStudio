@@ -67,5 +67,12 @@
             android:text="Consultar Usuarios"
             android:textSize="30dp"
             android:theme="@style/Widget.AppCompat.ActionButton.Overflow" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="pruebaFragments"
+            android:text="formulario en fragments"
+            android:textSize="30dp"
+            android:theme="@style/Widget.AppCompat.ActionButton.Overflow" />
     </LinearLayout>
 </LinearLayout>
